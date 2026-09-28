@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "checks": [
+    {"name": "determinism", "script": "res://checks/determinism.gd", "args": [], "success_marker": "PASS: determinism", "timeout": 30},
+    {"name": "state_roundtrip", "script": "res://checks/state_roundtrip.gd", "args": [], "success_marker": "PASS: state_roundtrip", "timeout": 30}
+  ]
+}

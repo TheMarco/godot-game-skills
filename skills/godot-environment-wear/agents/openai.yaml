@@ -1,0 +1,6 @@
+interface:
+  display_name: "Godot Environment Wear"
+  short_description: "Restrained decorative aging for game rooms."
+  default_prompt: "Use $godot-environment-wear to age this room without touching gameplay."
+policy:
+  allow_implicit_invocation: true

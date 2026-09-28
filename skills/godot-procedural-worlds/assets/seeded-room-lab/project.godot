@@ -1,0 +1,14 @@
+; Original minimal fixture for Godot Game Skills.
+config_version=5
+
+[application]
+config/name="Godot Game Skills — Seeded Room Lab"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=720
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.035, 0.047, 0.055, 1)

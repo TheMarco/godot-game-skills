@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Procedural Worlds"
+  short_description: "Stable generation, streaming and object state"
+  default_prompt: "Use $godot-procedural-worlds to build repeatable rooms while retaining mutable object state."

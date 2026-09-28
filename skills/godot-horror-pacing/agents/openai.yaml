@@ -1,0 +1,6 @@
+interface:
+  display_name: "Godot Horror Pacing"
+  short_description: "Arbitrate horror beats so scares stay separated."
+  default_prompt: "Use $godot-horror-pacing to add a beat that respects the shared pacing authority."
+policy:
+  allow_implicit_invocation: true

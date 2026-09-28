@@ -1,0 +1,6 @@
+interface:
+  display_name: "Godot Analog Presentation"
+  short_description: "Analog and VHS-style post-processing stages."
+  default_prompt: "Use $godot-analog-presentation to tune the tape signal and display stages."
+policy:
+  allow_implicit_invocation: true

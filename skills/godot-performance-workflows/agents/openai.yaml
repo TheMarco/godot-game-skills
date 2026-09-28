@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Performance Workflows"
+  short_description: "Measure hitches and preserve game behavior"
+  default_prompt: "Use $godot-performance-workflows to diagnose this frame hitch with a comparable workload."

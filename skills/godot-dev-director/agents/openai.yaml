@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Development Director"
+  short_description: "Coordinate focused Godot game development"
+  default_prompt: "Use $godot-dev-director to plan and implement this game change with proportionate verification."

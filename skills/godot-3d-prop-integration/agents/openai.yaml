@@ -1,0 +1,6 @@
+interface:
+  display_name: "Godot 3D Prop Integration"
+  short_description: "Integrate authored 3D props into Godot scenes."
+  default_prompt: "Use $godot-3d-prop-integration to integrate this authored prop into its scene."
+policy:
+  allow_implicit_invocation: true

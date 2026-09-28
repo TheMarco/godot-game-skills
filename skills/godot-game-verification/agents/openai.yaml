@@ -1,0 +1,6 @@
+interface:
+  display_name: "Godot Game Verification"
+  short_description: "Headless Godot checks from a manifest with reports"
+  default_prompt: "Use $godot-game-verification to run the affected Godot headless checks."
+policy:
+  allow_implicit_invocation: true

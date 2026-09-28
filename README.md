@@ -17,7 +17,18 @@ step-by-step workflows, tool usage and troubleshooting. Use the
 [prompt cookbook](docs/PROMPT_COOKBOOK.md) for ready-to-adapt requests covering
 all eight skills and combined workflows.
 
-![Seeded Room Lab: a small original scene demonstrating stable rooms and door state](docs/media/seeded-room-lab.png)
+## The game behind these skills
+
+[![Watch the It Wants You To Stay demo reel on YouTube](https://i.ytimg.com/vi/plEL_W2lK_w/maxresdefault.jpg)](https://youtu.be/plEL_W2lK_w)
+
+**[Watch the It Wants You To Stay demo reel on YouTube](https://youtu.be/plEL_W2lK_w)**
+
+These skills grew out of developing **It Wants You To Stay**, a Godot horror game.
+As I built the game, I refined workflows for procedural environments, persistent
+world state, debugging, performance, horror pacing and visual presentation. I
+extracted those lessons into the eight skills, supporting tools and original
+examples in this repository so other Godot developers can apply them to their
+own projects.
 
 ## Install
 
@@ -86,6 +97,8 @@ is a nine-cell scene using original box geometry. It demonstrates canonical
 shared edges, build-order-independent generation, mutable door state surviving
 rebuilds, and safe rejection of a failed staging attempt.
 
+![Seeded Room Lab: a small original scene demonstrating stable rooms and door state](docs/media/seeded-room-lab.png)
+
 Install an official Godot 4 editor binary and make `godot` available on PATH, or
 pass its executable path with `--godot` to the runner. From this repository:
 
@@ -136,8 +149,8 @@ verified. See [contributing](CONTRIBUTING.md) for realistic skill evaluations.
 
 ## Origins and license
 
-Extracted from development lessons in Liminal, with original minimal examples
-and portable helpers. The [Three.js Game Skills project](https://github.com/majidmanzarpour/threejs-game-skills)
+Extracted from developing **It Wants You To Stay**, with original minimal
+examples and portable helpers. The [Three.js Game Skills project](https://github.com/majidmanzarpour/threejs-game-skills)
 inspired the package format. Its code and game assets are not bundled.
 See [extraction notes](docs/EXTRACTION.md) for what was generalized.
 
